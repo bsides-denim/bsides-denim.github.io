@@ -24,7 +24,16 @@ time, mark, audio, video {
 html {
   line-height: 1;
 }
-
+button {    padding: 15px 40px;
+    border-radius: 14px;
+    color: white;
+    text-decoration: none;
+    background-color: #a9a994;
+    margin: 30px 40px;
+    font-size: 17px;}
+    
+    a {    color: white;
+    text-decoration: none;}
 /* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
