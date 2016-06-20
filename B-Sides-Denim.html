@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!-- meta tags -->
+    <title>B-Sides Denim</title>
+    <meta name="B-Sides Denim" content="B-Sides Denim" />
+    <!-- Google+ publisher  -->
+    <link rel="publisher" href="http://plus.google.com/xxxxxxxxxxxxxxxxxxxxx" />
+
+    <!--  FB Open Graph meta tags -->
+    <meta property="og:title" content=" " />
+    <meta property="og:description" content=" " /> <!-- 88 characters -->  <!--   is 146 characters -->
+    <meta property="og:type" content="product" />
+    <meta property="og:image" content="http://www.PROJECT-X/PROJECTX-facebook-card.jpeg" />
+    <meta property="og:url" content="http://www.PROJECT-X.com" />
+    <meta property="og:site_name" content="PROJECT-X: " />
+    <meta property="fb:app_id" content="xx1037656598190" />
+    <!-- Twitter card meta tags -->
+    <meta property="twitter:card" content="summary" />
+    <meta name="twitter:url" content="http://www.PROJECT-X.com" />
+    <meta property="twitter:title") content=" a few caption " />
+    <meta name="twitter:description" content=""  /> <!-- max 140 -->
+    <meta property="og:image:type" content="b-sides-denim.jpeg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+
+    <!--Open Graph --> 
+    <meta name='keywords' content=" Words, Words, Words " />
+    <meta property='og:site_name' content='PROJECT-X' />
+    <meta property='og:title' content=" lots of words" />
+    <meta property='og:description' content=" lots of words" /> <!-- min -100 character -->
+
+    <!-- /meta tags -->
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="http://laf.land/donavon/favicon.ico" />
+    <link rel="icon" type="image/png" href="http://laf.land/donavon/favicon.png" />
+    <link rel="icon" type="image/gif" href="http://laf.land/donavon/avicon.gif" />  
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://laf.land/donavon/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://laf.land/donavon/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://laf.land/donavon/apple-touch-icon-57x57-precomposed.png">
+
+
+    <script data-require="angular.js@1.2.10" data-semver="1.2.10" src="http://code.angularjs.org/1.2.10/angular.js"></script>
+    <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+    <link rel="stylesheet" href="app/app.css" />
+
+    <title>B-Sides Denim</title>
+    <meta name="viewport" content="initial-scale=1" >
+
+      <style>
+
+li {
+      background-color: #337ab7;
+}
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:230px;
+    height:230px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(""); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+    z-index: 99;
+}
+
+
+
+/*
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}*/
+
+/*body {
+  background-color: transparent;
+  -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  -moz-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  -webkit-perspective: 1400px;
+  -moz-perspective: 1400px;
+  perspective: 1400px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}*/
+
+
+
+    body {font-family: 'Artifika', serif;}
+    h1 {text-align: right; font-size: 3vw; padding:2%;}
+    .facebook-icon {    width: 10%;
+/*    left: 45%;
+   position: absolute;*/
+  bottom:0;
+  padding:0 0 2% 0;
+    text-align: right;}
+.facebook-icon:hover {fill: #6F54D2; transition-all:2s;    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;}
+/*
+    .preload {
+      position: absolute;
+      bottom:0;
+      left: 17.5%;
+      width: 25%
+    } */
+
+.number, .mail {
+
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+
+/*.number {position: absolute;
+left: 15%;
+bottom: 2%}
+.mail{position: absolute;
+right: 15%;
+bottom: 2%}*/
+
+
+  .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#3A569B;}
+        .st1{fill-rule:evenodd;clip-rule:evenodd;fill:#3B589C;}
+        .st2{fill-rule:evenodd;clip-rule:evenodd;fill:#3C589C;}
+        .st3{fill-rule:evenodd;clip-rule:evenodd;fill:#3D5A9D;}
+        .st4{fill-rule:evenodd;clip-rule:evenodd;fill:#415C9E;}
+        .st5{fill-rule:evenodd;clip-rule:evenodd;fill:#415D9F;}
+        .st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FCFDFD;}
+
+        path:hover {fill: #6F54D2; transition-duration: 2s;    
+          -webkit-transition: all 2s; /* Safari */
+          transition: all 2s;}
+
+
+.number, .mail {
+  color:#6F54D2;
+
+    font-size: 2vw;
+    text-decoration: none;
+    padding-bottom: 2%;
+}
+.mail:hover {color: #415D9F;
+transition-duration: .7s;    
+  font-size: 2.1vw;
+          -webkit-transition: all .7s; /* Safari */
+          transition: all .7s;}
+.number:hover {color: #415D9F;
+    font-size: 2.1vw;
+transition-duration: .7s;    
+          -webkit-transition: all .7s; /* Safari */
+          transition: all .7s;}
+.preload {
+
+  animation-name: stylie-transform-keyframes;
+  animation-duration: 3000ms;
+  animation-delay: 0ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: 0 0;
+}
+#preloader {background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+background:-webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
+background:radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=1 ); /* ie6-9 */}
+@keyframes stylie-transform-keyframes {
+  0% {transform:translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  20% {transform:translate(285px, 48px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  40% {transform:translate(463px, -9px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  60% {transform:translate(616px, 60px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  80% {transform:translate(791px, 20px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  100% {transform:translate(1027px, 73px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);}
+}html::after { content: url(https://ga-beacon.appspot.com/UA-42910121-1/stylie?pixel); position: absolute; left: -999em; }
+
+.img-hat {    width: 26%;
+    top: 0;
+    position: absolute;
+    z-index: -2;
+    border-radius: 50%;
+    top: 15%;
+    left: 2%;}
+.copy{    position: absolute;
+    bottom: 0;
+        margin: 0;
+
+    right: 0.5%;
+font-size: 9.5px;}
+
+.img-link { 
+    text-decoration: none;
+    color: black;
+    display: block;
+    left: 36%;
+    position: relative;
+    top: 170px;
+    padding-top: 4px; }
+
+    img {    border: 0;
+    width: 24%;
+    border-radius: 50%;
+  }
+  img:hover {
+    border-radius: 0;
+    transition: all 1s;
+
+
+     }
+
+     .wrapper {
+    max-width: 91%;
+    overflow: hidden;
+    text-align: center
+     }
+    
+ .nav {    position: absolute;
+    top: 0;
+
+
+    text-align: center;
+    width: 100%;}
+
+
+
+
+
+
+
+
+</style>
+
+  </head>
+
+  <body>
+    <div class="container" ng-app="app">
+      <header ng-include="'app/templates/nav.html'"></header>
+      <div ui-view></div>
+      <footer ng-include="'app/templates/footer.html'"></footer>
+    </div>
+  </body>
+  
+  <script src="app/app.js"></script>
+  <script src="app/controllers/workCtrl.js"></script>
+  <script src="app/controllers/aboutCtrl.js"></script>
+  <script src="app/controllers/bespokeCtrl.js"></script>
+
+
+
+  <script type="text/javascript">
+      //<![CDATA[
+          $(window).load(function() { // makes sure the whole site is loaded
+          $('#status').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(450).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(2200).css({'overflow':'visible'});
+        })
+      //]]>
+    </script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</html>
