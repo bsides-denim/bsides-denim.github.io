@@ -3,7 +3,7 @@ angular
     'ui.router'
   ])
   .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
-    $urlRouterProvider.otherwise('/bespoke');
+    $urlRouterProvider.otherwise('/work');
     $stateProvider
       .state('work', {
         url: '/work',
